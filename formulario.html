@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+
+    <title>ZOO - Série sobre ataques de animais</title>
+
+    <meta
+      name="ZOO - Série sobre ataques de animais"
+      content="Site sobre a série Zoo com informações sobre elenco, temporadas e curiosidades."
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="banner"></div>
+
+    <nav>
+      <a href="index.html">Início</a>
+      <a href="sobre.html">Sobre</a>
+      <a href="elenco.html">Elenco</a>
+      <a href="temporadas.html">Temporadas</a>
+      <a href="formulario.html">Formulário</a>
+    </nav>
+
+    <main>
+      <section>
+        <h2>Deixe sua Opinião</h2>
+
+        <p>
+          Gostou da série Zoo? Preencha o formulário abaixo e compartilhe sua
+          opinião.
+        </p>
+
+        <form>
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" name="nome" required />
+
+          <label for="idade">Idade:</label>
+          <input type="number" id="idade" name="idade" />
+
+          <label for="personagem">Personagem favorito:</label>
+          <input type="text" id="personagem" name="personagem" />
+
+          <label for="nota">Nota para a série (0 a 10):</label>
+          <input type="number" id="nota" name="nota" min="0" max="10" />
+
+          <label for="opiniao">Sua opinião sobre a série:</label>
+          <textarea id="opiniao" name="opiniao" rows="5"></textarea>
+
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+
+      <section>
+        <h2>Por que sua opinião é importante?</h2>
+
+        <p>
+          Cada pessoa pode ter uma visão diferente da série. Com este
+          formulário, os visitantes podem compartilhar suas opiniões,
+          personagens favoritos e o que mais gostaram em Zoo.
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <p>DESENVOLVIDO POR LAIS MONTEIRO</p>
+    </footer>
+  </body>
+</html>
